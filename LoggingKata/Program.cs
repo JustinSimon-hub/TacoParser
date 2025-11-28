@@ -16,7 +16,7 @@ namespace LoggingKata
             // HINT:  You'll need two nested forloops ---------------------------
 
             logger.LogInfo("Log initialized");
-
+           File.ReadLines(csvPath);
             // use File.ReadAllLines(path) to grab all the lines from your csv file
             // Log and error if you get 0 lines and a warning if you get 1 line
             var lines = File.ReadAllLines(csvPath);
